@@ -1,6 +1,16 @@
 // ==== Challenge 1: Write your own closure ====
 // Write a simple closure of your own creation.  Keep it simple!
+function ElChubasco(){
+  let greeting= "Welcome to El Chubasco!";
+  console.log(greeting);
 
+  function Recommendation(){
+    let favoriteMeal='Shredded beef nachos'
+    console.log(`Would you like to try our ${favoriteMeal}?`);
+  }
+  Recommendation();
+}
+ElChubasco();
 
 /* STRETCH PROBLEMS, Do not attempt until you have completed all previous tasks for today's project files */
 
